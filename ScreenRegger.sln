@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Domain", "src\Core.Domain\Core.Domain.csproj", "{1AB02781-43C0-496F-9A6F-7A2F8528333E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server.API", "src\Server.API\Server.API.csproj", "{ED16A40C-8E4F-452B-B44D-855D63E55466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "src\UI\UI.csproj", "{8BA486A4-4365-4D07-844A-394A847FE836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB02781-43C0-496F-9A6F-7A2F8528333E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB02781-43C0-496F-9A6F-7A2F8528333E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB02781-43C0-496F-9A6F-7A2F8528333E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB02781-43C0-496F-9A6F-7A2F8528333E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED16A40C-8E4F-452B-B44D-855D63E55466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED16A40C-8E4F-452B-B44D-855D63E55466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED16A40C-8E4F-452B-B44D-855D63E55466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED16A40C-8E4F-452B-B44D-855D63E55466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA486A4-4365-4D07-844A-394A847FE836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA486A4-4365-4D07-844A-394A847FE836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA486A4-4365-4D07-844A-394A847FE836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA486A4-4365-4D07-844A-394A847FE836}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD9AFADA-57DF-45DB-A731-E61EF7F32F49}
+	EndGlobalSection
+EndGlobal
